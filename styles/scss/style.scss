@@ -122,6 +122,17 @@ body {
   }
 }
 
+.attribution {
+  padding-top: 1rem;
+  font-size: 0.6rem;
+  color: $dark-grayish-cyan;
+  text-align: center;
+
+  a {
+    color: $dark-grayish-cyan;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .logo {
     padding-bottom: 2.554rem;

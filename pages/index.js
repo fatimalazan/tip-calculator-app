@@ -183,6 +183,21 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <div className="attribution">
+          <span>
+            Challenge by{' '}
+            <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">
+              Frontend Mentor
+            </a>{' '}
+            |{' '}
+          </span>
+          <span>
+            Coded by{' '}
+            <a href="https://github.com/fatimalazan" target="_blank">
+              ftmlzn
+            </a>
+          </span>
+        </div>
       </main>
     </>
   );
