@@ -68,7 +68,7 @@ export default function Home() {
           <div className="first-col">
             <div className="bill-form">
               <form>
-                <div class="input-label">
+                <div className="input-label">
                   <label htmlFor="bill-num" className="bill-label">
                     Bill
                   </label>
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
             <div className="people-form">
               <form>
-                <div class="input-label">
+                <div className="input-label">
                   <label htmlFor="people-num" className="people-label">
                     Number of People
                   </label>
