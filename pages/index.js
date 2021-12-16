@@ -93,7 +93,6 @@ export default function Home() {
                 <div className="tip-form--inputs">
                   <button
                     type="button"
-                    id="tip-qty"
                     onClick={() => setTip(5)}
                     className={tipQty === 5 ? 'quantity-btn active' : 'quantity-btn'}
                   >
@@ -102,7 +101,6 @@ export default function Home() {
 
                   <button
                     type="button"
-                    id="tip-qty"
                     onClick={() => setTip(10)}
                     className={tipQty === 10 ? 'quantity-btn active' : 'quantity-btn'}
                   >
@@ -110,7 +108,6 @@ export default function Home() {
                   </button>
                   <button
                     type="button"
-                    id="tip-qty"
                     onClick={() => setTip(15)}
                     className={tipQty === 15 ? 'quantity-btn active' : 'quantity-btn'}
                   >
@@ -118,7 +115,6 @@ export default function Home() {
                   </button>
                   <button
                     type="button"
-                    id="tip-qty"
                     onClick={() => setTip(25)}
                     className={tipQty === 25 ? 'quantity-btn active' : 'quantity-btn'}
                   >
@@ -126,7 +122,6 @@ export default function Home() {
                   </button>
                   <button
                     type="button"
-                    id="tip-qty"
                     onClick={() => setTip(50)}
                     className={tipQty === 50 ? 'quantity-btn active' : 'quantity-btn'}
                   >
