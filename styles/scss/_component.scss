@@ -82,7 +82,7 @@
   @include typography(1.25rem, bold, $very-dark-cyan);
   text-transform: uppercase;
   border-radius: 5px;
-  border: 2px solid $strong-cyan;
+  border: 2px solid #0d686d;
   cursor: pointer;
 
   &:hover,
