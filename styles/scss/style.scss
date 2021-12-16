@@ -21,6 +21,7 @@ body {
   display: flex;
   gap: 3rem;
   max-width: 57.5rem; //920px
+  min-height: 30.063rem;
   padding: 2rem 2rem 2rem 3rem;
   background-color: $white;
   border-radius: 25px;
@@ -118,17 +119,6 @@ body {
   &::-webkit-scrollbar-thumb {
     background-color: $dark-grayish-cyan;
     border-radius: 20px;
-  }
-}
-
-.attribution {
-  padding: 1rem 0 2rem 0;
-  font-size: 0.6rem;
-  color: $dark-grayish-cyan;
-  text-align: center;
-
-  a {
-    color: $dark-grayish-cyan;
   }
 }
 
