@@ -54,7 +54,7 @@
   border: 2px solid $light-grayish-cyan1;
 
   &::placeholder {
-    color: $dark-grayish-cyan;
+    color: hsla(180, 18%, 40%, 1);
     font-weight: 700;
     text-align: center;
   }
@@ -78,7 +78,7 @@
   display: block;
   width: 100%;
   height: 3rem;
-  background-color: $strong-cyan;
+  background-color: #0d686d;
   @include typography(1.25rem, bold, $very-dark-cyan);
   text-transform: uppercase;
   border-radius: 5px;
