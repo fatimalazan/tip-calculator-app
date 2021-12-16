@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3.125rem 0;
   background-color: $light-grayish-cyan;
 }
 
@@ -146,6 +145,10 @@ body {
 }
 
 @media screen and (max-width: 915px) {
+  body {
+    padding: 3.125rem 0;
+  }
+
   .calculator-main {
     flex-direction: column;
     gap: 2rem;
