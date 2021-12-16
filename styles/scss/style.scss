@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'base';
+@import 'component';
 
 body {
   display: flex;
@@ -45,88 +46,12 @@ body {
   font-weight: 700;
 }
 
-.bill-input {
-  @include input-number-style;
-  @include typography(1.5rem, 700, $very-dark-cyan);
-  background: $light-grayish-cyan1 url(../../assets/images/icon-dollar.svg) 1rem no-repeat;
-}
-
-.input-error-1 {
-  @include input-error-style;
-  @include typography(1.5rem, 700, $very-dark-cyan);
-  background: $light-grayish-cyan1 url(../../assets/images/icon-dollar.svg) 1rem no-repeat;
-}
-
 .tip-form {
   padding-bottom: 2.5rem;
 }
 
 .tip-label {
   @include label-style($padding-bottom: 1rem);
-}
-
-.quantity-btn {
-  height: 3rem; //46px
-  padding: 0.375rem 0.188rem;
-  background-color: $very-dark-cyan;
-  @include typography(1.5rem, 700, $white);
-  text-align: center;
-  border-radius: 5px;
-  border: 2px solid $very-dark-cyan;
-
-  &:hover {
-    color: $very-dark-cyan;
-    background-color: #9fe8df;
-    border: 2px solid #9fe8df;
-    outline: none;
-    cursor: pointer;
-  }
-
-  &:active,
-  &:focus {
-    color: $very-dark-cyan;
-    background-color: $strong-cyan;
-    border: 2px solid $strong-cyan;
-    outline: none;
-  }
-}
-
-.active {
-  color: $very-dark-cyan;
-  background-color: $strong-cyan;
-  border: 2px solid $strong-cyan;
-  outline: none;
-}
-
-.quantity-input {
-  height: 3rem; //46px
-  padding: 0.375rem 0.188rem;
-  @include typography(1.5rem, 700, $white);
-  background-color: $light-grayish-cyan1;
-  color: $very-dark-cyan;
-  text-align: right;
-  border-radius: 5px;
-  border: 2px solid $light-grayish-cyan1;
-
-  &::placeholder {
-    color: $dark-grayish-cyan;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $white;
-    border: 2px solid #26c2ae;
-    outline: none;
-    cursor: auto;
-  }
-}
-
-.tip-form--inputs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 1rem 0.875rem;
 }
 
 .people-label {
@@ -194,30 +119,6 @@ body {
   &::-webkit-scrollbar-thumb {
     background-color: $dark-grayish-cyan;
     border-radius: 20px;
-  }
-}
-
-.reset-btn {
-  display: block;
-  width: 100%;
-  height: 3rem;
-  background-color: $strong-cyan;
-  @include typography(1.25rem, bold, $very-dark-cyan);
-  text-transform: uppercase;
-  border-radius: 5px;
-  border: 2px solid $strong-cyan;
-  cursor: pointer;
-
-  &:hover,
-  &:active {
-    background-color: #9fe8df;
-    border: 2px solid #9fe8df;
-  }
-
-  &:disabled {
-    background-color: $dark-grayish-cyan;
-    border: 2px solid $dark-grayish-cyan;
-    opacity: 0.35;
   }
 }
 

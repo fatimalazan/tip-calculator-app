@@ -138,7 +138,6 @@ export default function Home() {
                   />
                 </div>
               </form>
-              {console.log(typeof tipQty)}
             </div>
             <div className="people-form">
               <form>
